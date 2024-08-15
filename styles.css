@@ -1,0 +1,50 @@
+body{
+      color:white;
+      background: black;
+      margin: 0px;
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 1px red;
+    padding: 20px;
+    font-size: 32px;
+    color: red
+}
+
+.chamada{
+     background: blue;
+     padding-bottom: 80px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.outros-raps{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.raps{
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 50px;
+}
+
+.raps h2{
+    color: red;
+}
