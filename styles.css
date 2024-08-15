@@ -3,7 +3,7 @@ body{
       background: black;
       margin: 0px;
       font-family: "Roboto", sans-serif;
-      margin-bottom: 100px;
+      margin-bottom: 1000px;
 }
 
 header{
@@ -39,12 +39,29 @@ p{
     gap: 10px;
 }
 
+.Mais-Raps{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
 .raps{
      padding-left: 20px;
      padding-right: 20px;
      margin-top: 50px;
 }
 
+.Raps-2{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
 .raps h2{
     color: red;
 }
+
+.Raps-2 h2{
+    color: red;
+}
+
